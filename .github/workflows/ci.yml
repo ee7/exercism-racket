@@ -19,7 +19,7 @@ jobs:
         racket-version: ['7.9']
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
 
       - uses: Bogdanp/setup-racket@00f7ec314c9d21e1f81e1805036d4dc2577a44aa
         with:
